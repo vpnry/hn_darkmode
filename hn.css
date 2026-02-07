@@ -1,0 +1,116 @@
+/* Hacker News (news.ycombinator.com) */
+:root {
+    --bg-color-hn: #1a1a1a;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --hn-orange: #ff6600;
+    --link-color: #82b1ff;
+    --input-bg: #2d2d2d;
+    --input-border: #444444;
+}
+
+body {
+    background-color: var(--bg-color-hn) !important;
+    color: var(--text-primary) !important;
+}
+
+#hnmain {
+    background-color: var(--bg-color-hn) !important;
+}
+
+/* Top bar HN */
+.hnwrapper table tr:first-child td,
+tr[bgcolor="#ff6600"],
+td[bgcolor="#ff6600"] {
+    background-color: var(--hn-orange) !important;
+}
+
+.pagetop {
+    color: #000 !important;
+}
+
+.pagetop a {
+    color: #000 !important;
+}
+
+/* HN Story Titles */
+.title,
+.title a {
+    color: var(--text-primary) !important;
+}
+
+/* HN Subtext and comments header */
+.subtext,
+.subtext a,
+.comhead,
+.comhead a {
+    color: var(--text-secondary) !important;
+}
+
+/* HN Comments */
+.comment,
+.commtext {
+    color: var(--text-primary) !important;
+}
+
+.commtext * {
+    color: inherit !important;
+}
+
+.comment a,
+.commtext a {
+    color: var(--link-color) !important;
+    text-decoration: underline;
+}
+
+/* Handle dimmed/downvoted comments */
+.c5a,
+.c5a * {
+    color: #999 !important;
+}
+
+.c88,
+.c88 * {
+    color: #888 !important;
+}
+
+.ca9,
+.ca9 * {
+    color: #777 !important;
+}
+
+.cbe,
+.cbe * {
+    color: #666 !important;
+}
+
+.cce,
+.cce * {
+    color: #555 !important;
+}
+
+.cdd,
+.cdd * {
+    color: #444 !important;
+}
+
+/* HN Inputs */
+input[type="text"],
+textarea {
+    background-color: var(--input-bg) !important;
+    color: var(--text-primary) !important;
+    border: 1px solid var(--input-border) !important;
+    padding: 4px !important;
+}
+
+/* HN Search button etc */
+input[type="submit"] {
+    background-color: var(--input-border) !important;
+    color: var(--text-primary) !important;
+    border: none !important;
+}
+
+/* HN Vote arrows */
+.votearrow {
+    filter: invert(0.8) !important;
+}

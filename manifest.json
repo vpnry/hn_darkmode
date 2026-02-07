@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "HN Dark Mode",
+  "version": "0.1.1",
+  "description": "Dark mode for Hacker News and Hckr News",
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.news.ycombinator.com/*",
+        "*://news.ycombinator.com/*"
+      ],
+      "css": [
+        "hn.css"
+      ],
+      "run_at": "document_start"
+    },
+    {
+      "matches": [
+        "*://*.hckrnews.com/*",
+        "*://hckrnews.com/*"
+      ],
+      "css": [
+        "hckr.css"
+      ],
+      "run_at": "document_start"
+    }
+  ]
+}

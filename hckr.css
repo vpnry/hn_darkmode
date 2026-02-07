@@ -1,0 +1,64 @@
+/* Hckr News (hckrnews.com) */
+:root {
+    --bg-color-hckr: #121212;
+    --text-primary: #e0e0e0;
+    --text-secondary: #a0a0a0;
+    --hn-orange: #ff6600;
+}
+
+body {
+    background-color: var(--bg-color-hckr) !important;
+    color: var(--text-primary) !important;
+}
+
+/* Navigation Header and Brand Hckr */
+.filtertop {
+    background-color: #1e1e1e !important;
+    border-bottom: 1px solid #333 !important;
+}
+
+.filtertop a,
+.filtertop .brand,
+.filtertop .brand a {
+    color: var(--text-primary) !important;
+}
+
+/* Description text in header Hckr */
+.filtertop p,
+.filtertop span:not(.active) {
+    color: var(--text-secondary) !important;
+}
+
+.filtertop.byall,
+.filtertop.bytop,
+.filtertop.active {
+    background-color: var(--hn-orange) !important;
+    color: #000 !important;
+}
+
+/* Hckr Links and Rows */
+.link,
+.hn {
+    color: var(--text-primary) !important;
+}
+
+.link:hover {
+    background-color: #252525 !important;
+}
+
+.link span {
+    color: var(--text-secondary) !important;
+}
+
+/* Hckr Time markers */
+.time {
+    color: var(--text-secondary) !important;
+    opacity: 0.7;
+}
+
+/* Hckr Settings */
+#settings {
+    background-color: #1e1e1e !important;
+    border: 1px solid #444 !important;
+    color: var(--text-primary) !important;
+}
