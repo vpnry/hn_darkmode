@@ -1,8 +1,8 @@
 /* Hacker News (news.ycombinator.com) */
 :root {
-    --bg-color-hn: #1a1a1a;
-    --text-primary: #e0e0e0;
-    --text-secondary: #a0a0a0;
+    --bg-color-hn: #282a36;
+    --text-primary: #cccccc;
+    --text-secondary: #7c808c;
     --hn-orange: #ff6600;
     --link-color: #82b1ff;
     --input-bg: #2d2d2d;
