@@ -10,8 +10,9 @@
 }
 
 body {
-    background-color: var(--bg-color-hn) !important;
-    color: var(--text-primary) !important;
+  background-color: var(--bg-color-hn) !important;
+  color: var(--text-primary) !important;
+  font-size: 20px !important;
 }
 
 #hnmain {
@@ -37,6 +38,7 @@ td[bgcolor="#ff6600"] {
 .title,
 .title a {
     color: var(--text-primary) !important;
+    font-size: 20px !important;
 }
 
 /* HN Subtext and comments header */
@@ -45,12 +47,15 @@ td[bgcolor="#ff6600"] {
 .comhead,
 .comhead a {
     color: var(--text-secondary) !important;
+    font-size: 16px !important;
 }
 
 /* HN Comments */
 .comment,
 .commtext {
     color: var(--text-primary) !important;
+    font-size: 20px !important;
+    line-height: 1.4 !important;
 }
 
 .commtext * {

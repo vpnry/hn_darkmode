@@ -9,6 +9,7 @@
 body {
     background-color: var(--bg-color-hckr) !important;
     color: var(--text-primary) !important;
+    font-size: 20px !important;
 }
 
 /* Navigation Header and Brand Hckr */
@@ -21,6 +22,7 @@ body {
 .filtertop .brand,
 .filtertop .brand a {
     color: var(--text-primary) !important;
+    font-size: 20px !important;
 }
 
 /* Description text in header Hckr */
@@ -40,6 +42,7 @@ body {
 .link,
 .hn {
     color: var(--text-primary) !important;
+    font-size: 20px !important;
 }
 
 .link:hover {
@@ -48,6 +51,7 @@ body {
 
 .link span {
     color: var(--text-secondary) !important;
+    font-size: 16px !important;
 }
 
 /* Hckr Time markers */
